@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Core Fitness | Transform Your Body</title>
+    <meta name="description" content="Premium gym offering weight training, cardio, personal training, and yoga. Join Iron Core Fitness today.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">IRON <span>CORE</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#membership">Plans</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#trainers">Trainers</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#contact" class="nav-btn">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>IRON CORE <br><span class="text-accent">FITNESS</span></h1>
+            <p>Transform Your Body, Transform Your Life</p>
+            <div class="hero-buttons">
+                <a href="#membership" class="btn btn-primary">Start Your Transformation</a>
+                <a href="#contact" class="btn btn-outline">Claim Free Trial</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Plans -->
+    <section id="membership" class="section">
+        <div class="container">
+            <h2 class="section-title">Membership <span class="text-accent">Plans</span></h2>
+            <div class="cards-grid">
+                <!-- Basic Plan -->
+                <div class="pricing-card">
+                    <h3>Basic</h3>
+                    <div class="price"><span>₹</span>999<span>/month</span></div>
+                    <ul>
+                        <li><span class="check">✓</span> Access to Gym Equipment</li>
+                        <li><span class="check">✓</span> Locker Room Access</li>
+                        <li><span class="check">✓</span> Free Wi-Fi</li>
+                        <li class="disabled"><span class="cross">✕</span> Group Classes</li>
+                        <li class="disabled"><span class="cross">✕</span> Personal Training</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline btn-full">Choose Plan</a>
+                </div>
+                <!-- Standard Plan (Highlighted) -->
+                <div class="pricing-card highlighted">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Standard</h3>
+                    <div class="price"><span>₹</span>1999<span>/month</span></div>
+                    <ul>
+                        <li><span class="check">✓</span> Access to Gym Equipment</li>
+                        <li><span class="check">✓</span> Locker Room Access</li>
+                        <li><span class="check">✓</span> Free Wi-Fi</li>
+                        <li><span class="check">✓</span> Group Classes (Yoga/Zumba)</li>
+                        <li class="disabled"><span class="cross">✕</span> Personal Training</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary btn-full">Choose Plan</a>
+                </div>
+                <!-- Premium Plan -->
+                <div class="pricing-card">
+                    <h3>Premium</h3>
+                    <div class="price"><span>₹</span>2999<span>/month</span></div>
+                    <ul>
+                        <li><span class="check">✓</span> Access to Gym Equipment</li>
+                        <li><span class="check">✓</span> Locker Room Access</li>
+                        <li><span class="check">✓</span> Free Wi-Fi</li>
+                        <li><span class="check">✓</span> Group Classes (Yoga/Zumba)</li>
+                        <li><span class="check">✓</span> 4 Personal Training Sessions</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline btn-full">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title">Our <span class="text-accent">Services</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40" stroke="currentColor" stroke-width="2" fill="none"><path d="M6 5.5v13M18 5.5v13M4 8h4M16 8h4M4 16h4M16 16h4M2 12h20"></path></svg>
+                    </div>
+                    <h3>Weight Training</h3>
+                    <p>Build muscle and strength with our state-of-the-art free weights and machines.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40" stroke="currentColor" stroke-width="2" fill="none"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+                    </div>
+                    <h3>Cardio</h3>
+                    <p>Improve your endurance with top-tier treadmills, ellipticals, and bikes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40" stroke="currentColor" stroke-width="2" fill="none"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
+                    <h3>Personal Training</h3>
+                    <p>Get personalized coaching tailored to your specific fitness goals.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="5" r="2"></circle><path d="m16 12-4-2-4 2"></path><path d="m12 10-2 4 2 8"></path><path d="m12 10 2 4-2 8"></path><path d="M8 22h8"></path></svg>
+                    </div>
+                    <h3>Yoga & Zumba</h3>
+                    <p>Find balance, flexibility, and rhythm in our dynamic group classes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers" class="section">
+        <div class="container">
+            <h2 class="section-title">Expert <span class="text-accent">Trainers</span></h2>
+            <div class="cards-grid">
+                <div class="trainer-card">
+                    <div class="trainer-img">
+                        <img src="assets/images/trainer_one.png" alt="Marcus Johnson - Strength & Conditioning">
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Marcus Johnson</h3>
+                        <p class="specialty">Strength & Conditioning</p>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-img">
+                        <img src="assets/images/trainer_two.png" alt="Sarah Mitchell - Yoga & Flexibility">
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Sarah Mitchell</h3>
+                        <p class="specialty">Yoga & Flexibility</p>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-img">
+                        <img src="assets/images/trainer_three.png" alt="David Chen - HIIT & Cardio">
+                    </div>
+                    <div class="trainer-info">
+                        <h3>David Chen</h3>
+                        <p class="specialty">HIIT & Cardio</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title">Client <span class="text-accent">Reviews</span></h2>
+            <div class="cards-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"Iron Core completely changed my perspective on fitness. The trainers are incredibly supportive and the equipment is top-notch."</p>
+                    <div class="client-name">- Emily R.</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"The best gym environment I've ever experienced. The Premium plan with personal training is worth every penny."</p>
+                    <div class="client-name">- Michael T.</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"Love the variety of classes! Yoga after an intense week of lifting is the perfect balance for my body."</p>
+                    <div class="client-name">- Jessica L.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="text-accent">Touch</span></h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Ready to start your fitness journey? Reach out to us or visit our facility.</p>
+                    <div class="info-item">
+                        <div class="icon">📍</div>
+                        <p>Koradi Highway, Nagpur, Maharashtra</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon">📞</div>
+                        <p><a href="tel:+919876543210">+91 98230xxxxx</a></p>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon">✉️</div>
+                        <p>info@ironcorefitness.com</p>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Get Free Trial Now</button>
+                    <div id="form-status" class="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">IRON <span class="text-accent">CORE</span></div>
+                <p>&copy; 2026 Iron Core Fitness. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- WhatsApp Floating Button -->
+<a href="https://wa.me/919999999999" class="whatsapp-float" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+</a>
+
+</body>
+</html>
